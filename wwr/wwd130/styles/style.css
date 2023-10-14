@@ -1,0 +1,92 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the body */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+header {
+    background-color: #6d00cc;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header .logo_link img {
+    width: 150px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+/* Apply the styles to the main paragraph */
+main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#Tour-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner-Tour {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.banner-Tour img {
+    max-width: 100%;
+}
+
+.banner-Tour h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+banner-Tour p {
+    font-size: 16px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #6d00cc;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.social img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}
+
+/* Add styles for the active element */
+#active {
+    background-color: white;
+    color: steelblue;
+}
